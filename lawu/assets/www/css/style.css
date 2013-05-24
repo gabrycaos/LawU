@@ -1,3 +1,4 @@
+
 @charset "UTF-8";
 /* STANDARD FOR MOBILE */
 
@@ -48,7 +49,7 @@ ul li {
     padding: 15px 0px;
     padding-left: 10px;
     width: 100%;
-    background-image: -webkit-linear-gradient(top, #f5f5f5, #dfdfdf); 
+    background-image: -webkit-gradient(top, #f5f5f5, #dfdfdf); 
 }
 
 ul li a {
@@ -90,14 +91,14 @@ ul li a {
 }
 
 #headerbar{
-    background-image: -webkit-linear-gradient(top, #cb2027, #991b1e);
+    background-image: -webkit-gradient(top, #cb2027, #991b1e);
     padding: 0px 0px;
     padding-left: 5px;
 
 }
 
 #themebar {
-    background-image: -webkit-linear-gradient(top, #cecece, #dfdfdf);
+    background-image: -webkit-gradient(top, #cecece, #dfdfdf);
     border-bottom: 2px solid #bbbbbb;
     padding: 5px 0px;
     margin-bottom: 7px;
@@ -126,12 +127,12 @@ h5 {
 #titlebar {
     border-bottom: 2px solid #bbbbbb;
     padding: 5px 0px;
-    background-image: -webkit-linear-gradient(top, #cecece, #dfdfdf);
+    background-image: -webkit-gradient(top, #cecece, #dfdfdf);
     margin-bottom: 7px;
 }
 
 #descriptionbar {
-    background-image: -webkit-linear-gradient(top, #cecece, #dfdfdf);
+    background-image: -webkit-gradient(top, #cecece, #dfdfdf);
     border-bottom: 2px solid #bbbbbb;
     padding: 5px 0px;
 
@@ -143,7 +144,7 @@ h5 {
     width: 100%;
     padding: 10px;
     text-align: center;
-    background-image: -webkit-linear-gradient(top, #cb2027, #991b1e);
+    background-image: -webkit-gradient(top, #cb2027, #991b1e);
     font-size: 13pt;
 
 }
@@ -155,7 +156,7 @@ h5 {
     height:50%;
     padding: 10px;
     text-align: center;
-    background-image: -webkit-linear-gradient(top, #cb2027, #991b1e);
+    background-image: -webkit-gradient(top, #cb2027, #991b1e);
     font-size: 13pt;
     border-bottom: 2px solid #000000;
 }
