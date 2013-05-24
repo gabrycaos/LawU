@@ -49,7 +49,14 @@ ul li {
     padding: 15px 0px;
     padding-left: 10px;
     width: 100%;
-    background-image: -webkit-gradient(top, #f5f5f5, #dfdfdf); 
+    /*background-image: -webkit-gradient(top, #f5f5f5, #dfdfdf); */
+	background: #f5f5f5; /* Old browsers */
+background: -moz-linear-gradient(top, #f5f5f5 0%, #dfdfdf 50%, #f5f5f5 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f5f5f5), color-stop(50%,#dfdfdf), color-stop(100%,#f5f5f5)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #f5f5f5 0%,#dfdfdf 50%,#f5f5f5 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #f5f5f5 0%,#dfdfdf 50%,#f5f5f5 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #f5f5f5 0%,#dfdfdf 50%,#f5f5f5 100%); /* IE10+ */
+background: linear-gradient(to bottom, #f5f5f5 0%,#dfdfdf 50%,#f5f5f5 100%); /* W3C */
 }
 
 ul li a {
@@ -91,14 +98,28 @@ ul li a {
 }
 
 #headerbar{
-    background-image: -webkit-gradient(top, #cb2027, #991b1e);
+    /*background-image: -webkit-gradient(top, #cb2027, #991b1e);*/
+	background: #cb2027; /* Old browsers */
+background: -moz-linear-gradient(top, #cb2027 0%, #991b1e 50%, #cb2027 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cb2027), color-stop(50%,#991b1e), color-stop(100%,#cb2027)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #cb2027 0%,#991b1e 50%,#cb2027 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #cb2027 0%,#991b1e 50%,#cb2027 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #cb2027 0%,#991b1e 50%,#cb2027 100%); /* IE10+ */
+background: linear-gradient(to bottom, #cb2027 0%,#991b1e 50%,#cb2027 100%); /* W3C */
     padding: 0px 0px;
     padding-left: 5px;
 
 }
 
 #themebar {
-    background-image: -webkit-gradient(top, #cecece, #dfdfdf);
+   /* background-image: -webkit-gradient(top, #cecece, #dfdfdf);*/
+   background: #cecece; /* Old browsers */
+background: -moz-linear-gradient(top, #cecece 0%, #dfdfdf 50%, #cecece 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cecece), color-stop(50%,#dfdfdf), color-stop(100%,#cecece)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #cecece 0%,#dfdfdf 50%,#cecece 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #cecece 0%,#dfdfdf 50%,#cecece 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #cecece 0%,#dfdfdf 50%,#cecece 100%); /* IE10+ */
+background: linear-gradient(to bottom, #cecece 0%,#dfdfdf 50%,#cecece 100%); /* W3C */
     border-bottom: 2px solid #bbbbbb;
     padding: 5px 0px;
     margin-bottom: 7px;
@@ -127,12 +148,25 @@ h5 {
 #titlebar {
     border-bottom: 2px solid #bbbbbb;
     padding: 5px 0px;
-    background-image: -webkit-gradient(top, #cecece, #dfdfdf);
+    /*background-image: -webkit-gradient(top, #cecece, #dfdfdf);*/
+	background: #cecece; /* Old browsers */
+background: -moz-linear-gradient(top, #cecece 0%, #dfdfdf 50%, #cecece 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cecece), color-stop(50%,#dfdfdf), color-stop(100%,#cecece)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #cecece 0%,#dfdfdf 50%,#cecece 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #cecece 0%,#dfdfdf 50%,#cecece 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #cecece 0%,#dfdfdf 50%,#cecece 100%); /* IE10+ */
+background: linear-gradient(to bottom, #cecece 0%,#dfdfdf 50%,#cecece 100%); /* W3C */
     margin-bottom: 7px;
 }
 
 #descriptionbar {
-    background-image: -webkit-gradient(top, #cecece, #dfdfdf);
+    background: #cecece; /* Old browsers */
+background: -moz-linear-gradient(top, #cecece 0%, #dfdfdf 50%, #cecece 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cecece), color-stop(50%,#dfdfdf), color-stop(100%,#cecece)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #cecece 0%,#dfdfdf 50%,#cecece 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #cecece 0%,#dfdfdf 50%,#cecece 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #cecece 0%,#dfdfdf 50%,#cecece 100%); /* IE10+ */
+background: linear-gradient(to bottom, #cecece 0%,#dfdfdf 50%,#cecece 100%); /* W3C */
     border-bottom: 2px solid #bbbbbb;
     padding: 5px 0px;
 
@@ -144,7 +178,13 @@ h5 {
     width: 100%;
     padding: 10px;
     text-align: center;
-    background-image: -webkit-gradient(top, #cb2027, #991b1e);
+  	background: #cb2027; /* Old browsers */
+background: -moz-linear-gradient(top, #cb2027 0%, #991b1e 50%, #cb2027 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cb2027), color-stop(50%,#991b1e), color-stop(100%,#cb2027)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #cb2027 0%,#991b1e 50%,#cb2027 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #cb2027 0%,#991b1e 50%,#cb2027 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #cb2027 0%,#991b1e 50%,#cb2027 100%); /* IE10+ */
+background: linear-gradient(to bottom, #cb2027 0%,#991b1e 50%,#cb2027 100%); /* W3C */
     font-size: 13pt;
 
 }
@@ -156,7 +196,13 @@ h5 {
     height:50%;
     padding: 10px;
     text-align: center;
-    background-image: -webkit-gradient(top, #cb2027, #991b1e);
+    	background: #cb2027; /* Old browsers */
+background: -moz-linear-gradient(top, #cb2027 0%, #991b1e 50%, #cb2027 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cb2027), color-stop(50%,#991b1e), color-stop(100%,#cb2027)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #cb2027 0%,#991b1e 50%,#cb2027 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #cb2027 0%,#991b1e 50%,#cb2027 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #cb2027 0%,#991b1e 50%,#cb2027 100%); /* IE10+ */
+background: linear-gradient(to bottom, #cb2027 0%,#991b1e 50%,#cb2027 100%); /* W3C */
     font-size: 13pt;
     border-bottom: 2px solid #000000;
 }
